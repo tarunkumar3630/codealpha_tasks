@@ -1,0 +1,141 @@
+Project Report
+
+Project Title:
+Smart E-commerce Web Scraping and Data Analysis
+
+Submitted By:
+Tarun Kumar
+
+B.Tech (Computer Science & Engineering)
+
+Aligarh College of Engineering and Technology
+
+1. Introduction
+E-commerce websites contain a large amount of product information that can be useful for market analysis and business decision-making. Web scraping is an automated technique used to extract such information from websites.
+
+In this project, data was collected from the "Books to Scrape" website using Python. After collecting the data, it was cleaned, analyzed, and visualized using Python libraries and Power BI. The project demonstrates how web scraping can help businesses understand product pricing, availability, and market trends.
+
+2. Objectives
+Collect product information from an e-commerce website.
+Clean and organize the extracted dataset.
+Perform exploratory data analysis.
+Create visualizations for better understanding.
+Build an interactive Power BI dashboard.
+Generate business insights from the collected data.
+
+3. Problem Statement
+Businesses need accurate product information to analyze pricing strategies and customer trends. Manually collecting this information is time-consuming and inefficient.
+
+This project automates the data collection process using web scraping techniques and provides useful insights through data visualization.
+
+4. Technologies Used
+Technology	Purpose
+Python	Web Scraping & Data Analysis
+BeautifulSoup	HTML Parsing
+Requests	Website Data Collection
+Pandas	Data Cleaning
+Matplotlib	Visualization
+Power BI	Dashboard Creation
+VS Code	Development
+
+5. Dataset Description
+The dataset was collected from the Books to Scrape website.
+
+Dataset includes:
+
+Book Title
+Price
+Rating
+Availability
+Product URL
+
+Total Records:
+618 Books
+
+6. Methodology
+Step 1
+Collect data using Requests library.
+
+Step 2
+Extract product details using BeautifulSoup.
+
+Step 3
+Store extracted data into CSV format.
+
+Step 4
+Clean dataset using Pandas.
+
+Step 5
+Perform data analysis.
+
+Step 6
+Generate visualizations.
+
+Step 7
+Create interactive Power BI dashboard.
+
+7. Data Cleaning
+The following preprocessing steps were performed:
+
+Removed missing values
+Converted prices into numeric format
+Standardized rating values
+Removed duplicate entries
+Verified data consistency
+
+8. Data Analysis
+The following analyses were performed:
+
+Price Distribution
+Average Book Price
+Highest Price
+Lowest Price
+Stock Availability
+Top Expensive Books
+Rating Distribution
+
+9. Dashboard Features
+The Power BI dashboard contains:
+
+KPI Cards
+Price Analysis
+Top 10 Expensive Books
+Availability Analysis
+Interactive Filters
+Product Summary
+
+10. Results
+The dashboard successfully displays:
+
+Total Books: 618
+Average Price: 35.05
+Maximum Price: 59.98
+Minimum Price: 10.01
+
+The visualizations help identify pricing trends and product distribution.
+
+11. Business Insights
+The project provides several useful insights:
+
+Most books are priced between medium price ranges.
+Product availability is consistently high.
+Price variation helps understand pricing strategies.
+Interactive dashboards improve business decision-making.
+Automated scraping saves significant time compared to manual data collection.
+
+12. Conclusion
+The Smart E-commerce Web Scraping project successfully demonstrates how web scraping and data analytics can be combined to collect, process, and visualize product information from an online store. The Power BI dashboard provides meaningful business insights and supports data-driven decision-making.
+
+13. Future Scope
+Scrape multiple e-commerce websites.
+Schedule automatic data updates.
+Add sentiment analysis from customer reviews.
+Predict product prices using Machine Learning.
+Deploy an interactive web dashboard.
+
+14. References
+https://books.toscrape.com
+Python Documentation
+BeautifulSoup Documentation
+Pandas Documentation
+Microsoft Power BI Documentation
